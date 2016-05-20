@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			/*@font-face
+			{
+				font-family: OpenSans;
+				src:url('OpenSans-Regular.ttf');
+			}
+
+			@font-face {
+				font-family: 'Lato';
+				src:url('Lato-Regular.eot') format('eot'),
+				url('Lato-Regular.woff') format('woff'),
+				url('Lato-Regular.ttf') format('truetype');
+			}*/
+			html, body{
+				margin: 0;
+				padding: 0;
+			}
+
+			#logo-container {
+				position: relative;
+				margin-top: 13px;
+				float: left;
+				height: 40px;
+				width: 50px;
+				overflow: hidden;
+				background-color: #01B9C8;
+				/*border: 1px solid #01B9C8;*/
+			}
+
+			#logo-container > img{
+				height: 100%;
+				width: 100%;
+			}
+
+			#triangle-topleft { 
+				width: 0; 
+				height: 0; 
+				border-top: 45px solid #01B9C8; 
+				border-right: 45px solid transparent;
+			}
+
+			.text-container{
+				float: left;
+				margin-top: 6px;
+				margin-left: 8px;
+				font-family: Open Sans;
+				color: #858585;
+				font-size: 40px;
+				text-transform: uppercase;
+			}
+			.container{
+				height: 100vh;
+				width: 100%;
+				padding-top: 20px;
+				padding-left: 40px;
+			}
+
+			.inner-container{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				height: 83%;
+				width: 80%;
+				border: 2px solid #FFFFFF;
+				border-bottom: 2px solid #01B9C8 !important;
+			}
+
+			.eraser{
+				position: absolute;
+				bottom: 0;
+				right: 3px;
+				width: 20px;
+				height: 6px;
+				background-color: #FFFFFF;
+			}
+
+			.board{
+				position: absolute;
+				height: 4px;
+				width: 70px;
+				background-color: #01B9C8;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<!-- <div id="logo-container">
+					<div id="triangle-topleft"></div>
+				</div> -->
+				<div id="logo-container">
+					<div class="inner-container">
+						<div class="eraser"></div>
+					</div>
+				</div>
+				
+				<div class="text-container">
+					P i s a r a
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
